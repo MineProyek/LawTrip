@@ -51,13 +51,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
-.logo h2 {
-  color: var(--text-light);
-  font-weight: 700;
-  font-size: 1.8rem;
+.logo img {
+  width: 150px;
   text-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
 }
 
