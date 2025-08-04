@@ -161,8 +161,8 @@ body {
 }
 
 .subtitle {
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 1000;
   margin-bottom: 2rem;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -619,7 +619,7 @@ footer {
 .footer-bottom {
   text-align: center;
   margin-top: 1rem;
-  font-size: 5rem;
+  font-size: 0.9rem;
   opacity: 0.8;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -639,7 +639,7 @@ footer {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .hero-content h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .tagline {
@@ -692,5 +692,34 @@ footer {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .about-text,
+  .contact-info {
+    font-size: 0.9rem;
+  }
+
+  .value-item {
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
+  }
+
+  .qrcode-image img {
+    width: 200px;
+    height: 200px;
   }
 }
