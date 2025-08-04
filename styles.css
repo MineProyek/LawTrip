@@ -1,14 +1,14 @@
 /* CSS Variables for colors and transitions */
 :root {
-  --primary-dark: #1a0000;
-  --primary-orange: #ff4500;
-  --secondary-orange: #ff8c00;
-  --text-light: #ffffff;
-  --text-orange: #ffcc99;
+  --primary-dark: #990D35;
+  --primary-orange: #D52941;
+  --secondary-orange: #FCD581;
+  --text-light: #FFFFFF;
+  --text-orange: #FFF8E8;
   --transition-speed: 0.5s;
-  --glass-bg: rgba(255, 255, 255, 0.1);
-  --glass-border: rgba(255, 255, 255, 0.2);
-  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  --glass-bg: rgba(217, 41, 65, 0.15);
+  --glass-border: rgba(252, 213, 129, 0.3);
+  --glass-shadow: 0 8px 32px rgba(217, 41, 65, 0.37);
 }
 
 /* Reset some default styles */
