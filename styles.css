@@ -257,14 +257,14 @@ section:nth-child(even) {
   width: 100%;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  filter: sepia(100%) hue-rotate(-20deg) saturate(3) brightness(0.8);
+  /* filter: sepia(100%) hue-rotate(-20deg) saturate(3) brightness(0.8); */
   transition: transform var(--transition-speed) ease,
     filter var(--transition-speed) ease;
 }
 
 .about-image img:hover {
   transform: scale(1.03);
-  filter: sepia(100%) hue-rotate(-20deg) saturate(5) brightness(1);
+  /* filter: sepia(100%) hue-rotate(-20deg) saturate(5) brightness(1); */
 }
 
 /* Education Section */
@@ -329,7 +329,7 @@ section:nth-child(even) {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  filter: sepia(100%) hue-rotate(-20deg) saturate(3) brightness(0.8);
+  /* filter: sepia(100%) hue-rotate(-20deg) saturate(3) brightness(0.8); */
 }
 
 .infographic-item p {

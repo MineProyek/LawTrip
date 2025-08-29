@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadBtn.addEventListener('click', () => {
         // For demo, download a placeholder PDF file
         const link = document.createElement('a');
-        link.href = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
+        link.href = 'file/RASYA 4.pdf';
         link.download = 'Materi_Edukasi_LAWTRIP.pdf';
         document.body.appendChild(link);
         link.click();
